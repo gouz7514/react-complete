@@ -1,4 +1,4 @@
-import '../style/ExpenseDate.css'
+import '../../style/ExpenseDate.css'
 
 function ExpenseDate(props) {
   const year = props.date.split('.')[0]
