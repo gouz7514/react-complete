@@ -1,9 +1,9 @@
 import '../../style/ExpenseDate.css'
 
 function ExpenseDate(props) {
-  const year = props.date.split('.')[0]
-  const month = props.date.split('.')[1]
-  const day = props.date.split('.')[2]
+  const year = new Date(props.date).getFullYear()
+  const month = new Date(props.date).getMonth()
+  const day = new Date(props.date).getDate()
 
   return (
     <div className='expense-date'>
