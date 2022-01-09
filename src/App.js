@@ -22,6 +22,18 @@ const DUMMY_EXPENSES = [
     amount : 32.5,
     date : new Date(2022, 1, 15).toLocaleDateString(),
   },
+  {
+    id : '4',
+    title : 'Test',
+    amount : 100.0,
+    date : new Date(2021, 3, 22).toLocaleDateString(),
+  },
+  {
+    id : '5',
+    title : 'Test2',
+    amount : 500.0,
+    date : new Date(2020, 7, 16).toLocaleDateString(),
+  },
 ]
 
 const App = () => {
