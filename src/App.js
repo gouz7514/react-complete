@@ -8,7 +8,7 @@ const DUMMY_EXPENSES = [
     id: '1',
     title : 'Climbing Academy',
     amount : 294.67,
-    date : new Date(2022, 1, 1).toLocaleDateString(),
+    date : new Date(2022, 8, 1).toLocaleDateString(),
   },
   {
     id: '2',
@@ -20,7 +20,7 @@ const DUMMY_EXPENSES = [
     id: '3',
     title : 'Play With Friends',
     amount : 32.5,
-    date : new Date(2022, 1, 15).toLocaleDateString(),
+    date : new Date(2022, 5, 15).toLocaleDateString(),
   },
   {
     id : '4',
